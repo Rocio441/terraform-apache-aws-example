@@ -4,8 +4,8 @@ terraform {
 
 provider "aws" {
   region     = "us-east-2"
-  access_key = "AKIAZ3B4U3LR2G3GJBGC"
-  secret_key = "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"
+  access_key = "AKIAZ3B4U3LRT64HPJHU"
+  secret_key = "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"
 }
 
 module "aws-server" {
