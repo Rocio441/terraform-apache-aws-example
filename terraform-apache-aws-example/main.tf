@@ -7,7 +7,7 @@ resource "aws_instance" "TestInstance" {
   user_data = <<-EOF
               #!/bin/bash
               yum install httpd -y
-              echo "Welcome to Home page" > /var/www/html/index.html
+              echo "Welcome to New updated Home page date +"%T"" > /var/www/html/index.html
               yum update -y
               service httpd start
               EOF
